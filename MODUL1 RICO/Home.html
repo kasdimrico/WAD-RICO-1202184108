@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Home</title>
+ 
+<style>
+  #Form{
+    margin-top: 50px;
+  }
+
+</style>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img src="C:\Users\RICO KASDIM\Documents\KULIAH\PRAKTIKUM\EAD\WAD\WAD-RICO-1202184108\MODUL1 RICO\logo-ead.png" hight="50px" width="100px"> <br>
+        <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="Home.html">Home </a><span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="Profil.html">Profil</a>
+            <a class="nav-link" href="Product.html">Product</a>
+          </div>
+          </div>
+      </nav>
+</head>
+<body>
+  <div id="Form" class="container">
+
+    <table class="table">
+        <tbody>
+          <tr>
+            <td class="table-active" style="text-align: center;vertical-align: middle;">
+              <iframe width="360" height="200" src="https://www.youtube.com/embed/AwMeQJ_u73I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscop; picture-in-picture" allowfullscreen></iframe>
+            </td>
+            
+            <td style="text-align: center;vertical-align: middle;">
+            <h2>Registrasi Data Pelanggan</h2><br>
+              <div class="row">
+                <div class="col">
+                  <form style="text-align: left;">
+                    <label for="Nama">Nama </label> <br> <br>
+                    <label for="Nomor HP"> Nomor Hp </label> <br><br>
+                    <label for="Alamat">Alamat </label> <br><br>
+                    <br><br>
+                      <label for="Pembayaran">Pembayaran </label> 
+                    <br><br>
+                        <label>Kategori pesanan </label>
+                    <br><br>
+                  </form>
+                </div>
+
+                <div style="text-align: left;" class="col">
+                  <input type="text" id="Nama" name="Nama" value="" placeholder="Nama anda.." ><br><br>
+                  <input type="text" id="Nomor Hp" name="Nomor HP" value="" ><br><br>
+                  <textarea name="Alamat" rows="3" cols="23"> </textarea><br><br>
+                  <input type="radio" id="Cash" name="pembayaran" value="Cash" > <label for="Cash">Cash</label> 
+                  <input type="radio" id="Credit" name="Pembayaran" value="Credit"> <label for="Credit">Credit</label><br><br>
+                      <select style="row-gap: 10;">
+                        <option value="A">Keyboard</option>
+                        <option value="B">Komputer</option>
+                        <option value="C">Mouse</option>
+                      </select><br><br>
+
+                </div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col text-center">
+                      <button type="button" class="btn btn-primary btn-lg btn-block">Kirim</button>
+                    </div>
+                  </div> 
+                </div>
+
+              </div>
+
+
+            </td>
+
+        </tr>
+        </tbody>
+    </table>
+
+  </div>
+</body>
+
+</html>
