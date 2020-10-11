@@ -83,10 +83,10 @@
                                                 <option value="Luxury"> Luxury </option>
                                             </select>';
                                     } else {
-                                        $roomType = $_GET['type'];
-                                        $stat = is_null($roomType);
+                                        $Type = $_GET['type'];
+                                        $stat = is_null($Type);
                                         if ($stat != 1){
-                                            echo '<input readonly name="room" type="text" class="form-control disabled" value="'.$roomType.'">';
+                                            echo '<input readonly name="room" type="text" class="form-control disabled" value="'.$Type.'">';
                                         } else {
                                             echo   
                                                 '<select name="room" class="form-control">
