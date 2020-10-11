@@ -109,7 +109,7 @@
               <li class="list-group-item">1 Workroom </li>
             </ul>
             <div class="card-body card-footer">
-              <a href="Booking.php?room=<?php echo 'Luxury&img=1' ?>" class="btn btn-primary">Book Now</a>
+              <a href="Booking.php?type=<?php echo 'Luxury&img=1' ?>" class="btn btn-primary">Book Now</a>
             </div>
         </div>
       </div>
