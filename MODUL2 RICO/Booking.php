@@ -41,7 +41,7 @@
         <div class="row">
             <div class="col sm-5">
 
-                <form action="My Booking.php" method="post">
+                <form action="MyBooking.php" method="post">
                     <fieldset class="form-group">
 
                         <!-- Nama -->
@@ -119,7 +119,7 @@
 
                         <!-- Button book -->
                         <div class="col-sm-15">
-                            <input type="submit" value="Book" class="btn btn-primary btn-block"></input>
+                            <input name="submit" value="Book" class="btn btn-primary btn-block"></input>
                         </div>
 
                     </fieldset>

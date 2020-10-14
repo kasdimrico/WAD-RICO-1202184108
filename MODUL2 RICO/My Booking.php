@@ -73,7 +73,7 @@
                 $OtherPrice= count($Choose)*20; 
             }
 
-        $Bill= ($Duration*$Price) + $OtherPrice;
+        $Bill= ($Duration**$Price) + $OtherPrice;
         
     ?>
 
@@ -107,10 +107,10 @@
                             <?php
                                 echo'  
                                 <ul>';
-                                    if ($Choose == 0){
+                                    if ($Choose != 0){
                                         echo 'NO SERVICES';
                                     } else{
-                                        for ($i = 0; $i<count($Choose); $i++){
+                                        for ($i = 0; $i<count($Choose); $i++);{
                                             echo '<li>' . $Choose[$i] . '</li>' ;
                                         }
                                     }
