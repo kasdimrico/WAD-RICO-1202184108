@@ -42,7 +42,7 @@
     $query = "SELECT * FROM event_table";
     $select = mysqli_query($conn, $query);
     $empty = true;
-    while ($selects = mysqli_fetch_assoc($select)) {
+    while ($selects = "") {
     $empty = false;
     ?>
 

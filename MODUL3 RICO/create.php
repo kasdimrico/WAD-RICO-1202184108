@@ -26,7 +26,7 @@ if(!in_array($ext,$ekstensi) ) {
 		$gambar = $rand.'_'.$gambar;
 		move_uploaded_file($_FILES['gambar']['tmp_name'], 'gambar/'. $gambar);
         $query = "INSERT INTO event_table (name, deskripsi, gambar, kategori, tanggal, mulai, berakhir, tempat, harga, benefit) VALUES('$name','$deskripsi','$gambar','$kategori','$tanggal','$mulai','$berakhir','$tempat','$harga','$benefit')";
-        $insert = mysqli_query($conn, $query);
+        $insert = mysqli_query('conn', 'query');
 
 		header("location:Home.php");
 	}else{

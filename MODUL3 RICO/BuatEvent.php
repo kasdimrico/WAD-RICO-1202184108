@@ -140,9 +140,9 @@
                     <br><br><br>
 
                 <div class="input" style="text-align: right;" >
-                    <button type="submit" class="btn btn-primary "name="submit">submit</button>
+                    <a type="submit" class="btn btn-primary "name="submit">submit</a>
                     <a href="./BuatEvent.php">
-                    <button class="btn btn-danger" name="cancel">cancel</button>
+                    <a class="btn btn-danger" name="cancel">cancel</a>
                     </a>
                    
                 </div>
