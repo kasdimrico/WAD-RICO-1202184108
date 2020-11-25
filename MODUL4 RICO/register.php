@@ -22,7 +22,7 @@
             $password = password_hash($_POST['password'],PASSWORD_DEFAULT);
 
             if ($_POST['konfirmasi_password'] == $_POST['password']) {
-                if ($database->register($nama,$email,$no_hp,$password)) {
+                if ($database->register($nama,$nama,$no_hp,$password)) {
                     header("Refresh:2; url=login.php");
                     echo '<div class="alert alert-warning" role="alert">';
                     echo 'Berhasil registrasi';

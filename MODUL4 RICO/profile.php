@@ -61,7 +61,7 @@
             if ($_POST['confirm_password'] == $_POST['password']){
                 try {
                     $sql = "UPDATE user SET nama='$nama', email='$email', no_hp='$no_hp', password='$password' WHERE email='$email'";
-                    $stmt = $conn->prepare($sql);
+                    $stmt = $conn->prepare($stmt);
                     $stmt->execute();
                     header('Refresh:2');
                     echo '<div class="alert alert-warning" role="alert">';
