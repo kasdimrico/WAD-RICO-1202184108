@@ -9,8 +9,7 @@
         <div class="col sm-5">
             <div class="card" style="color: green;">
                 <div class="card-body">
-                    <form action="{{ route('prod_store') }}" method="post" enctype="multipart/form-data">
-                        @csrf
+                    <form action="{{ route('prod_store') }}" method="post" enctype="multipart/form-data">                        
                         @include('layouts.form_control')
                     </form>
                 </div>

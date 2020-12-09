@@ -10,8 +10,7 @@ use Illuminate\Support\Facades\Storage;
 class ProductController extends Controller
 {
     public function read_products()
-    {
-        $products = Product::latest()->paginate(12);
+    {     
 
         if(request()->is('/')){
             return view('home_prod', compact('products'));

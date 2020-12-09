@@ -5,8 +5,8 @@ use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ProductController;
 
 // Route::get('/', 'HomeController@index')->name('home');
-Route::get('/', [ProductController::class, 'read_products'])->name('home_prod');
-Route::get('product', [ProductController::class, 'read_products'])->name('product_list');
+Route::post('/', [ProductController::class, 'read_products'])->name('home_prod');
+Route::post('product', [ProductController::class, 'read_products'])->name('product_list');
 Route::get('order', [ProductController::class, 'read_products'])->name('order_prod');
 Route::get('history', [OrderController::class, 'read_orders'])->name('history_prod');
 
